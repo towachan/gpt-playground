@@ -1,3 +1,3 @@
 #/bin/bash
 
-deno run --allow-net server.js
+nohup deno run --allow-net --allow-read server.ts >2&1 
